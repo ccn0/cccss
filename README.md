@@ -1,2 +1,3 @@
-# cccss
-the CSS i will begin using on webpages
+# CCCSS
+
+The CSS I will begin using on my webpages.
