@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    background-color:#000;
+    color:#fff;
+}
+::selection {
+    background:#fff;
+    color:#000;
+}
+::moz-selection {
+    background:#fff;
+    color:#000;
+}
+p,span,h1,h2,h3,h4,h5,h6 {
+    cursor:default;
+}
+code {
+    background-color: #505050;
+    border: 1px solid #fff;
+    cursor: text;
+}
+.top {
+    text-align:center;
+    cursor:default;
+    margin:10px;
+}
+a {
+    text-decoration:none;
+    color:#00ffff;
+}
+a:hover {
+    color:#ffff00;
+}
+a:active {
+    color:#ff00ff;
+}
+.content {
+    margin:5px;
+    text-align:center;
+}
+hr {
+    border-style:dashed;
+    border-width:2px;
+    border-color:#fff;
+}
+cr {
+    color:#f00
+}
+cg {
+    color:#0f0
+}
+cb {
+    color:#00f
+}
+cy {
+    color:#ff0
+}
+cc {
+    color:#0ff
+}
+cm {
+    color:#f0f
+}
+ul,ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    border-style:solid;
+    border-width:3px;
+    border-color:#fff;
+    padding:5px 15px;
+    margin: 5px;
+    display:block;
+    width: fit-content;
+    max-width: 300px;
+    margin: 5px auto;
+}
+li p {
+    margin: 0;
+}
